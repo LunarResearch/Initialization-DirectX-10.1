@@ -8,8 +8,9 @@ using namespace Microsoft::WRL;
 
 ComPtr<ID3D10Device1> device;
 ComPtr<ID3D10RenderTargetView> renderTarget;
-ComPtr<IDXGISwapChain> swapChain;
+
 ComPtr<IDXGIFactory> factory;
+ComPtr<IDXGISwapChain> swapChain;
 
 void KeyDown(UINT8 key) {
 	if (GetAsyncKeyState(VK_ESCAPE))
