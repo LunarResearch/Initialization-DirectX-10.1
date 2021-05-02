@@ -153,7 +153,7 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 	wc.lpszClassName = TEXT("WindowClass");
 	RegisterClass(&wc);
 
-	auto hWnd = CreateWindow(wc.lpszClassName, TEXT("Test DirectX 10 for D3D10CreateDevice1"),
+	auto hWnd = CreateWindow(wc.lpszClassName, TEXT("Test DirectX 10.1 for D3D10CreateDevice1"),
 		WS_SYSMENU | WS_MINIMIZEBOX,
 		(GetSystemMetrics(SM_CXSCREEN) - 1024) / 2,
 		(GetSystemMetrics(SM_CYSCREEN) - 576) / 2,
